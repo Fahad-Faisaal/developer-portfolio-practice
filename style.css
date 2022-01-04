@@ -1,0 +1,42 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.4;
+}
+
+.orange-color {
+  color: orange;
+}
+
+.init-flex {
+  display: flex;
+  align-items: center;
+  /* gap: 32px; */
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+
+header img {
+  width: 70%;
+}
+
+.heading-title {
+  letter-spacing: -2;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-image: linear-gradient(salmon,tomato);
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
