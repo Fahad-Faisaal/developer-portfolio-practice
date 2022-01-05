@@ -78,14 +78,14 @@ header img {
   box-shadow: 2px 1px 5px rgb(0, 0, 0);
   border-image: linear-gradient(salmon,tomato);
   border-image-slice: 1;
-  width: 300px;
+  width: 275px;
   padding: 10px;
   cursor: pointer;
   transition: .17s;
 }
 
 .project-cards:hover {
-  width: 350px;
+  width: 290px;
 }
 
 .tools-title {
