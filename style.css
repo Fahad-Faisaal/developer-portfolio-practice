@@ -42,7 +42,13 @@ header img {
   background-image: linear-gradient(salmon,tomato);
   color: #fff;
   font-weight: bold;
-  padding: 12px 32px;
+  padding: 8px 24px;
   margin-right: 6px;
-  margin-top: 10px;
+  margin-top: 14px;
+  border: none;
+  transition: .17s;
+}
+
+.btn:hover {
+  padding: 12px 32px;
 }
