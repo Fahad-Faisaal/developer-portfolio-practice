@@ -11,6 +11,7 @@ p {
 header {
   background-image: url(./images/top-banner.png);
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .orange-color {
@@ -52,3 +53,42 @@ header img {
 .btn:hover {
   padding: 12px 32px;
 }
+
+/* Project Section */
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.project-heading {
+  font-size: 38px;
+  text-align: center;
+  padding-left: 5%;
+  margin-bottom: 70px;
+  letter-spacing: -2;
+}
+
+.project-cards {
+  border-left: 7px solid;
+  box-shadow: 2px 1px 5px rgb(0, 0, 0);
+  border-image: linear-gradient(salmon,tomato);
+  border-image-slice: 1;
+  width: 300px;
+  padding: 10px;
+  cursor: pointer;
+  transition: .17s;
+}
+
+.project-cards:hover {
+  width: 350px;
+}
+
+.tools-title {
+  font-weight: bold;
+}
+
