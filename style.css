@@ -61,6 +61,8 @@ header img {
 }
 
 .projects-section {
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
   margin-top: 80px;
   margin-bottom: 80px;
 }
@@ -91,4 +93,61 @@ header img {
 .tools-title {
   font-weight: bold;
 }
+
+/* About Section */
+.about-section {
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 200px;
+}
+
+.about-photo {
+  width: 60%;
+}
+
+.about-text {
+  text-align: justify;
+  width: 70%;
+}
+
+/* Contact */
+.form {
+  margin-top: 180px;
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.form-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-parts {
+  margin-bottom: 18px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+/* footer */
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid teal;
+  padding: 12px;
+  background-color: #63e6be;
+  color: #343a40;
+}
+
+
 
